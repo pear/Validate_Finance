@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "email": "pear.neufeind@speedpartner.de",
+            "name": "Stefan Neufeind",
+            "role": "Lead"
+        },
+        {
+            "email": "wormus@php.net",
+            "name": "Aaron Wormus",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_Finance": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_Finance",
+    "include-path": [
+        "./"
+    ],
+    "license": "PHP License",
+    "name": "pear/validate_finance",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_Finance",
+        "source": "https://github.com/pear/Validate_Finance"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
