@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Validate_Finance": "./"
+            "Validate": "./"
         }
     },
     "description": "More info available on: http://pear.php.net/package/Validate_Finance",
@@ -28,7 +28,8 @@
     },
     "type": "library",
     "require": {
-        "pear/pear_exception": "*"
+        "pear/pear_exception": "*",
+        "pear/validate": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
